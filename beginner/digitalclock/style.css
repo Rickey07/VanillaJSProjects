@@ -1,0 +1,31 @@
+* , *::after,*::before{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    min-height: 300px;
+    background-color: #101010;
+    align-items: center;
+}
+
+.clock-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.digits {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
